@@ -1,0 +1,398 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-11-10T06:48:19.286Z",
+        "line": 3,
+        "name": "User checking the login page using valid username and password",
+        "description": "",
+        "id": "checking-the-functionality-of-the-adactin-hotel-application;user-checking-the-login-page-using-valid-username-and-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16598743400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user launch the application",
+            "match": {
+              "location": "com.stepdefenition.com.AdactinStepDefenition.user_launch_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 140657700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enter the valid username in the username field",
+            "match": {
+              "location": "com.stepdefenition.com.AdactinStepDefenition.user_enter_the_valid_username_in_the_username_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 83775100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enter the valid password in the password field",
+            "match": {
+              "location": "com.stepdefenition.com.AdactinStepDefenition.user_enter_the_valid_password_in_the_password_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7178263600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on the login button",
+            "match": {
+              "location": "com.stepdefenition.com.AdactinStepDefenition.user_clicks_on_the_login_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-10T06:48:43.394Z",
+        "line": 10,
+        "name": "User have to book a room",
+        "description": "",
+        "id": "checking-the-functionality-of-the-adactin-hotel-application;user-have-to-book-a-room",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 186738500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user have to select the location",
+            "match": {
+              "location": "com.stepdefenition.com.AdactinStepDefenition.user_have_to_select_the_location()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 102377500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user have to select the hotel",
+            "match": {
+              "location": "com.stepdefenition.com.AdactinStepDefenition.user_have_to_select_the_hotel()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 99734000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user have to select the room type",
+            "match": {
+              "location": "com.stepdefenition.com.AdactinStepDefenition.user_have_to_select_the_room_type()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 83775200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user have to select the number of rooms",
+            "match": {
+              "location": "com.stepdefenition.com.AdactinStepDefenition.user_have_to_select_the_number_of_rooms()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 42889800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user have to clear the check-in date field",
+            "match": {
+              "location": "com.stepdefenition.com.AdactinStepDefenition.user_have_to_clear_the_check_in_date_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 61830200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user have to enter the check-in date",
+            "match": {
+              "location": "com.stepdefenition.com.AdactinStepDefenition.user_have_to_enter_the_check_in_date()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 44880200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user have to clear the check-out date field",
+            "match": {
+              "location": "com.stepdefenition.com.AdactinStepDefenition.user_have_to_clear_the_check_out_date_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 52860000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user have to enter the check-out date",
+            "match": {
+              "location": "com.stepdefenition.com.AdactinStepDefenition.user_have_to_enter_the_check_out_date()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 81783000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user have to pick adult per room",
+            "match": {
+              "location": "com.stepdefenition.com.AdactinStepDefenition.user_have_to_pick_adult_per_room()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 85770900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user have to pick child per room",
+            "match": {
+              "location": "com.stepdefenition.com.AdactinStepDefenition.user_have_to_pick_child_per_room()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1657818000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user clicks on the search option",
+            "match": {
+              "location": "com.stepdefenition.com.AdactinStepDefenition.user_clicks_on_the_search_option()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-10T06:48:45.905Z",
+        "line": 24,
+        "name": "User have to confirm the hotel booking",
+        "description": "",
+        "id": "checking-the-functionality-of-the-adactin-hotel-application;user-have-to-confirm-the-hotel-booking",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 80494200,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user have to click on the radio button",
+            "match": {
+              "location": "com.stepdefenition.com.AdactinStepDefenition.user_have_to_click_on_the_radio_button()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1459501500,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user clicks on the continue option",
+            "match": {
+              "location": "com.stepdefenition.com.AdactinStepDefenition.user_clicks_on_the_continue_option()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-10T06:48:47.454Z",
+        "line": 29,
+        "name": "User have to enter the payment details",
+        "description": "",
+        "id": "checking-the-functionality-of-the-adactin-hotel-application;user-have-to-enter-the-payment-details",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 102726600,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user have to enter the first name",
+            "match": {
+              "location": "com.stepdefenition.com.AdactinStepDefenition.user_have_to_enter_the_first_name()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 84771000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user have to enter the last name",
+            "match": {
+              "location": "com.stepdefenition.com.AdactinStepDefenition.user_have_to_enter_the_last_name()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 106714000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user have to enter the address",
+            "match": {
+              "location": "com.stepdefenition.com.AdactinStepDefenition.user_have_to_enter_the_address()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 96746000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user have to enter the 16-digit credit card number",
+            "match": {
+              "arguments": [
+                {
+                  "val": "16",
+                  "offset": 23
+                }
+              ],
+              "location": "com.stepdefenition.com.AdactinStepDefenition.user_have_to_enter_the_digit_credit_card_number(java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 99728400,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user have to select the credit card type",
+            "match": {
+              "location": "com.stepdefenition.com.AdactinStepDefenition.user_have_to_select_the_credit_card_type()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 75797100,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "user have to select the expiry month of the card",
+            "match": {
+              "location": "com.stepdefenition.com.AdactinStepDefenition.user_have_to_select_the_expiry_month_of_the_card()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 75800600,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "user have to select the expiry year of the card",
+            "match": {
+              "location": "com.stepdefenition.com.AdactinStepDefenition.user_have_to_select_the_expiry_year_of_the_card()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 67815800,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user have to enter the CVV number",
+            "match": {
+              "location": "com.stepdefenition.com.AdactinStepDefenition.user_have_to_enter_the_CVV_number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 59840400,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "User clicks on the BOOK NOW option",
+            "match": {
+              "location": "com.stepdefenition.com.AdactinStepDefenition.user_clicks_on_the_BOOK_NOW_option()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-10T06:48:48.240Z",
+        "line": 40,
+        "name": "User have to check the details that have been entered and logout",
+        "description": "",
+        "id": "checking-the-functionality-of-the-adactin-hotel-application;user-have-to-check-the-details-that-have-been-entered-and-logout",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 649775800,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "user have to click on the logout",
+            "match": {
+              "location": "com.stepdefenition.com.AdactinStepDefenition.user_have_to_click_on_the_logout()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      }
+    ],
+    "name": "Checking the functionality of the adactin hotel application",
+    "description": "",
+    "id": "checking-the-functionality-of-the-adactin-hotel-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/feature/com/Adactin.feature",
+    "tags": []
+  }
+]

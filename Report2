@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="29.78">
+    <testcase classname="Checking the functionality of the adactin hotel application" name="User checking the login page using valid username and password" time="24.083">
+        <system-out><![CDATA[Given user launch the application...........................................passed
+When User enter the valid username in the username field....................passed
+And User enter the valid password in the password field.....................passed
+Then user clicks on the login button........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Checking the functionality of the adactin hotel application" name="User have to book a room" time="2.506">
+        <system-out><![CDATA[Given user have to select the location......................................passed
+When user have to select the hotel..........................................passed
+And user have to select the room type.......................................passed
+And user have to select the number of rooms.................................passed
+And user have to clear the check-in date field..............................passed
+And user have to enter the check-in date....................................passed
+And user have to clear the check-out date field.............................passed
+And user have to enter the check-out date...................................passed
+And user have to pick adult per room........................................passed
+And user have to pick child per room........................................passed
+Then user clicks on the search option.......................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Checking the functionality of the adactin hotel application" name="User have to confirm the hotel booking" time="1.541">
+        <system-out><![CDATA[Given user have to click on the radio button................................passed
+Then user clicks on the continue option.....................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Checking the functionality of the adactin hotel application" name="User have to enter the payment details" time="0.773">
+        <system-out><![CDATA[Given user have to enter the first name.....................................passed
+When user have to enter the last name.......................................passed
+And user have to enter the address..........................................passed
+And user have to enter the 16-digit credit card number......................passed
+And user have to select the credit card type................................passed
+And user have to select the expiry month of the card........................passed
+And user have to select the expiry year of the card.........................passed
+And user have to enter the CVV number.......................................passed
+Then User clicks on the BOOK NOW option.....................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Checking the functionality of the adactin hotel application" name="User have to check the details that have been entered and logout" time="0.651">
+        <system-out><![CDATA[Given user have to click on the logout......................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
